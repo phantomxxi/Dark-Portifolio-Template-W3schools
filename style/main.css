@@ -1,0 +1,535 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    /*background-color: black;*/
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    max-width: 1030px;
+    padding: 0 2%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    width: 91%;
+    float: right;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*HEADER-------------------------------------*/
+
+header{
+    width: 9%;
+    height: 100%;
+    background-color: #333333;
+    position: fixed;
+    text-align: center;
+}
+
+header .box-profile{
+    width: 100%;
+    height: 135px;
+    background-image: url(../images/man_smoke.jpg);
+    background-size: 100% 100%;
+}
+
+.profile-outline{
+    width: 100%;
+    height: 100%;
+    background-color: #757575;
+    opacity: 0.6;
+}
+
+header nav ul{
+    list-style: inherit;
+}
+
+header nav li{
+    padding: 35px 0;
+}
+
+.primary{
+    background-color: black;
+}
+
+.primary:hover{
+    background-color: #fff;
+    color: black;
+}
+
+header nav #primary-li:hover{
+    background-color: #fff;
+}
+
+header li:hover{
+    background-color: black;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/*BANNER---------------------------------------*/
+
+.title-profile{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.title-profile h1{
+    font-size: 63px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+section.box-banner{
+    margin: 70px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    padding-top: 100%;
+    background-image: url(../images/man_smoke.jpg);
+    background-position: center 40%;
+    background-size: cover;
+}
+
+/*DESCRIPTION---------------------*/
+
+section.description{
+    width: 100%;
+    margin: 30px 0;
+}
+section.description > h1{
+    width: 20%;
+    color: #fff;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #757575;
+    margin-bottom: 23px;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.description p{
+    color: #757575;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+/*SKILLS-------------------------------*/
+
+section.box-skills{
+    width: 100%;
+}
+
+section.box-skills > h1{
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 27px;
+   
+}
+
+div.bar-wraper{
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+.bar-wraper > p{
+    color: #757575;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.bar{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+}
+
+.meter{
+    width: 90%;
+    height: 100%;
+    background-color: #757575;
+}
+
+.statistic-wraper{
+    width: 100%;
+    background-color: #fff;
+    padding: 27px 0;
+    margin-top: 30px;
+}
+
+.statistic > h1{
+    color: black;
+}
+
+.statistic{
+    width: calc(100% /4);
+    text-align: center;
+    float: left;
+}
+
+.download{
+    width: 200px;
+    padding: 10px 0;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.download > p{
+    font-size: 15px;
+    color: black;
+}
+
+/*MY PRICE---------------------------*/
+
+.box-my-price{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.box-my-price > h1{
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.box-my-price .my-price, .my-price2{
+    width: calc(50% - 10px);
+    text-align: center;
+    float: left;
+}
+
+.box-my-price .my-price2{
+    width: calc(50% - 10px);
+    text-align: center;
+    float: right;
+}
+
+.my-price  h1, .my-price2 h1{
+    padding: 30px 0;
+    background-color: #3a3939;
+    color: #fff;
+}
+
+.my-price  p, .my-price2 p{
+    padding: 20px 0;
+    background-color: #fff;
+    color: black;  
+    
+}
+
+.my-price > p, .my-price2 > p{
+    border-bottom: 1px solid #b1aeae; 
+}
+
+.my-price .wraper-value, .my-price2 .wraper-value{
+    padding: 22px 0;
+    background-color: #fff;
+    
+}
+
+
+.my-price .wraper-value p:nth-of-type(1), .my-price2 .wraper-value p:nth-of-type(1){
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.box-my-price .wraper-sign{
+    padding: 20px 0;
+    background-color: #fff;
+    color: black; 
+    border-top: 1px solid #b1aeae; 
+}
+
+.box-my-price .wraper-sign{
+    padding: 20px 0;
+    background-color:  #e6e6e6;
+    color: black; 
+    border-top: 1px solid #d3cfcf; 
+}
+
+.box-my-price input{
+    width: 115px;
+    line-height: 40px;
+    border-radius: 3px;
+    border: 0;
+    background-color:  #f1efef;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.box-my-price input:hover{   
+    background-color:  black;
+    color: #fff;
+    
+}
+
+/*REPUTATION--------------------------------*/
+
+section.box-reputation{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.box-reputation h1{
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 27px;
+}
+.wraper-reputation{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-reputation{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-image: url(../images/bandmember.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    float: left;
+}
+
+
+.description-profile{
+    width: calc(100% - 100px);
+    color: rgb(189, 189, 189);
+    float: left;
+    margin-top: 15px;
+}
+
+.description-profile p{
+    display: inline-block;
+}
+
+.description-profile p:nth-of-type(1){
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/*MY PHOTOS-------------------*/
+
+section.box-my-photos{
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.box-my-photos h1{
+    width: 20%;
+    color: #fff;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #757575;
+    margin-bottom: 23px;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.left-photos{
+    width: calc(50% - 8px);
+    float: left;
+}
+
+.left-photos div:nth-of-type(1){
+    height:300px;
+    background-image: url(../images/wedding.jpg);
+}
+
+.left-photos div:nth-of-type(2){
+    height:820px;
+    background-image: url(../images/rocks.jpg);
+}
+
+.left-photos div:nth-of-type(3){
+    height:350px;
+    background-image: url(../images/sailboat.jpg);
+}
+
+.right-photos{
+    width: calc(50% - 8px);
+    float: right;
+}
+
+.right-photos div:nth-of-type(1){
+    height:480px;
+    background-image: url(../images/underwater.jpg);
+}
+
+.right-photos div:nth-of-type(2){
+    height:312px;
+    background-image: url(../images/chef.jpg);
+}
+
+.right-photos div:nth-of-type(3){
+    height:312px;
+    background-image: url(../images/wedding.jpg);
+}
+
+.right-photos div:nth-of-type(4){
+    height:350px;
+    background-image: url(../images/p6.jpg);
+}
+
+.photo{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 12px;
+}
+
+
+
+/*CONTACT*/
+
+section.contact{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact h1{
+    width: 20%;
+    color: #fff;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #757575;
+    margin-bottom: 23px;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.box-contact-information{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wraper-contact{
+   width: 100%; 
+   margin-bottom: 40px;
+}
+
+.img-contact{
+    width: 40px;
+    height: 40px;
+    background-image: url(../icons/localização.png);
+    background-position: center;
+    background-size: 100% 100%;
+    float: left;
+    margin-right: 15px;
+}
+
+.wraper-contact p{
+    color: grey;
+    position: relative;
+    top: 10px;
+}
+
+.form-contact{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form-contact p{
+    color: grey;
+    margin-bottom: 17px;
+}
+
+.form-contact form > input{
+    width: 100%;
+    line-height: 53px;
+    border: 0;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.form-contact > input{
+    width: 200px;
+    height: 43px;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+}
+
+footer{
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+.social-networks{
+    width: 200px;
+    margin-bottom: 35px;
+
+}
+
+.img-social{
+    background-image: url(../icons/facebook.png);
+    background-position: center;
+    background-size: 100% 100%;
+    width: calc(120px / 6);
+    height: calc(120px / 6);
+    float: left;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.image-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+}
+
+.image-cover:hover{
+    opacity: 0.6;
+}
+
+footer p{
+    color: grey;
+}
+
+footer a{
+    color: grey;
+    text-decoration: underline;
+}
+
+footer a:hover{
+    color: green;
+    
+}
